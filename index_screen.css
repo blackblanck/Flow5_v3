@@ -1,0 +1,319 @@
+/* Scss Document */ 
+@media only screen and (min-width: 1000px) {
+  /* Scss Document */
+  body {
+    margin: 0;
+    font-family: 'Muli', sans-serif; }
+  /* Navigation Video */
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s; }
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1; }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px; } }
+
+@media only screen and (min-width: 1000px) and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto; }
+  .overlay a {
+    font-size: 20px; }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px; } }
+
+@media only screen and (min-width: 1000px) {
+  .open {
+    text-align: center; }
+  span {
+    margin-top: 10px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: blue;
+    text-align: right; }
+  /* Navigation Map*/
+  .overlay2 {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 7;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s; }
+  .span2 {
+    margin-top: 10px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #EF5411;
+    text-align: right; }
+  .overlay2-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; }
+  .overlay2 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+  .overlay2 a:hover, .overlay2 a:focus {
+    color: #f1f1f1; }
+  .overlay2 .closebtn2 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px; } }
+
+@media only screen and (min-width: 1000px) and (max-height: 450px) {
+  .overlay2 {
+    overflow-y: auto; }
+  .overlay2 a {
+    font-size: 20px; }
+  .overlay2 .closebtn2 {
+    font-size: 40px;
+    top: 15px;
+    right: 35px; } }
+
+@media only screen and (min-width: 1000px) {
+  #container {
+    position: relative;
+    background-color: transparent; }
+  #container img {
+    position: absolute;
+    left: 0;
+    height: 80%;
+    z-index: -35; }
+  @-webkit-keyframes imgFade {
+    0% {
+      opacity: 1; }
+    17% {
+      opacity: 1; }
+    25% {
+      opacity: 0; }
+    92% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @-moz-keyframes imgFade {
+    0% {
+      opacity: 1; }
+    17% {
+      opacity: 1; }
+    25% {
+      opacity: 0; }
+    92% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @-o-keyframes imgFade {
+    0% {
+      opacity: 1; }
+    17% {
+      opacity: 1; }
+    25% {
+      opacity: 0; }
+    92% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes imgFade {
+    0% {
+      opacity: 1; }
+    17% {
+      opacity: 1; }
+    25% {
+      opacity: 0; }
+    92% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  #container img {
+    -webkit-animation-name: imgFade;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
+    -moz-animation-name: imgFade;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 8s;
+    -o-animation-name: imgFade;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-iteration-count: infinite;
+    -o-animation-duration: 8s;
+    animation-name: imgFade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s; }
+  #container img:nth-of-type(1) {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    animation-delay: 6s; }
+  #container img:nth-of-type(2) {
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    -o-animation-delay: 4s;
+    animation-delay: 4s; }
+  #container img:nth-of-type(3) {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s; }
+  #container img:nth-of-type(4) {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0; }
+  /* Chevron calling for action - AIDA button*/
+  .keyframe {
+    position: relative;
+    background-color: white;
+    -webkit-animation-name: clickme;
+    animation-name: clickme;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  @-webkit-keyframes clickme {
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    4.41177% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    8.82353% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    13.23529% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    17.64706% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    22.05882% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    26.47059% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); } }
+  @keyframes clickme {
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    4.41177% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    8.82353% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    13.23529% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    17.64706% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    22.05882% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    26.47059% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); } }
+  .middle {
+    background-image: url(wolfhand1.png);
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 76vh;
+    padding-top: 50px;
+    padding-left: 10vh; }
+  /* Middle section text */
+  .breadcrumbs {
+    font-weight: 900;
+    font-size: 15px; }
+  .please {
+    font: darkgray;
+    font-size: 18px;
+    margin-top: 5vh;
+    font-weight: 900; }
+  /* Div of the social media icons */
+  .leftside {
+    background-color: transparent;
+    height: 76vh; }
+  .wrapper {
+    width: 50%; }
+  .social {
+    list-style: none;
+    display: block; }
+  .social-item {
+    display: table;
+    color: black;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    padding-top: 14px;
+    text-align: center;
+    border: 2px solid black;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-bottom: 4vh;
+    margin-top: 5vh;
+    margin-left: 3vh; }
+  ul li a:hover {
+    background-color: black;
+    border-color: transparent;
+    display: table;
+    font-size: 30px;
+    padding-top: 14px;
+    color: #f1f1f1; }
+  /* PHP section styling*/
+  .allposts {
+    background-color: transparent; }
+  .top {
+    margin-top: 0;
+    background-color: yellow; } }

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<form action="add-post-it.php" method="post">
+	<fieldset>
+		<legend>Create your post</legend>
+		<p> Name </p>
+		<input type="text" name="name" placeholder="Name" required><br>
+		
+		<p> Title </p>
+		<input type="text" name="title" placeholder="Title" required><br>
+		
+       <p> Note </p>
+        <textarea type="text" name="comment" rows="6" cols="30"> </textarea><br>
+		
+		<input type="submit" name="cmd" value="Post it">
+	</fieldset>
+</form>
+
+</body>
+</html>

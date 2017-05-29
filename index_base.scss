@@ -1,0 +1,363 @@
+/* Scss Document */
+
+@media only screen and (max-width: 768px) {
+	
+/* Scss Document */
+
+	
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+}
+	
+/* Navigation Video */
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+	
+
+.open {
+    text-align: center; }
+	
+span {
+    margin-top: 10px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #044C29; 
+	text-align: right;}
+	
+/* Navigation Map*/
+	
+.overlay2 {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 7;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+    
+.span2 {
+    margin-top: 10px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #044C29;
+	text-align: right;
+}
+
+.overlay2-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay2 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay2 a:hover, .overlay2 a:focus {
+    color: #f1f1f1;
+}
+
+.overlay2 .closebtn2 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay2 {overflow-y: auto;}
+  .overlay2 a {font-size: 20px}
+  .overlay2 .closebtn2 {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+	
+/* Chevron calling for action - AIDA button*/	
+ .keyframe {
+    position: relative;
+    background-color: white;
+    -webkit-animation-name: clickme;
+    animation-name: clickme;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  @-webkit-keyframes clickme {
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    4.41177% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    8.82353% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    13.23529% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    17.64706% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    22.05882% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    26.47059% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); } }
+  @keyframes clickme {
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    4.41177% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    8.82353% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    13.23529% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    17.64706% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    22.05882% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    26.47059% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); } }	
+	
+.videome {
+	width: 70%; 
+	}
+	
+	
+
+
+	
+.map {
+	
+  -webkit-transform: scale(0.5, 0.5);
+  -webkit-transform-origin: top left;
+
+	}
+	
+.container {
+    overflow:hidden;	
+}
+	
+.middle {
+	background-image: url(wolfanimation.gif);
+	background-position:center;
+	background-size:20%;
+	width: 100%;
+	height: 60vh;
+	background-size: 320px 180px;
+	background-repeat: no-repeat;
+	margin-top: -10vh;
+	}
+	
+	
+
+	
+.header1 {
+	width: 100%;
+	height: 2vh;
+	text-align: left;
+	font-size: 14px;
+	font-weight:700;
+	color: #147534;
+	background-color:transparent;
+		
+	}
+	
+
+	
+.header {
+	background-color: transparent;
+	height: 3vh;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 900;
+	margin-left:4vh;
+		
+	}
+	
+
+
+
+
+	
+.leftside {
+	background-color: transparent;
+	width: 20%;
+	
+	}
+	
+	
+.wrapper{
+  width: 50%;
+	background-color: green;
+	}
+    
+
+.social { 
+    list-style: none;
+    display: block;
+	position: fixed;
+      }
+    
+    
+.social-item {
+         
+    display: table;
+    color: black;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    padding-top:2px;
+    text-align: center;
+    border: 2px solid black;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-bottom: 4vh;
+	margin-top: 6vh;
+	margin-left: -2vh;
+
+    
+    }
+       
+        
+ .social a:hover{ 
+      background-color: #147534;
+      border-color: #147534;
+      display: table;
+      font-size: 12px;
+      padding-top:2px;
+      color: #f1f1f1
+    }
+
+
+	
+.top {
+		
+
+	background-size: 60%;
+	width: 40vh;
+	height: 66vh;
+	background-color: transparent;
+	margin-left:5vh;
+	margin-top: -7vh;
+	
+
+	}
+	
+	
+		p {
+		font-size: 15px;
+		font-family:Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+		line-height: 110%;
+		text-align: center;
+	}
+	
+	
+	.little {
+		font-size: 12px;
+		font-weight:900;
+	}
+	
+	
+	    .vesko {
+				
+    	margin-top: 35px;
+    	margin-left: 0;
+    	background-image: url(home.png);
+    	background-size: contain;
+    	height: 30px;
+    	width: 30px;
+    	position: absolute;
+    	float: left;
+    	top: 0;
+}
+
+
+}
+
+

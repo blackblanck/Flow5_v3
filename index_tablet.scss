@@ -1,0 +1,325 @@
+/* Scss Document */
+
+@media screen and (min-width:768px) and (max-width: 1000px) {
+	
+/* Scss Document */
+
+	
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+}
+	
+/* Navigation Video */
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+	
+
+.open {
+    text-align: center; }
+	
+span {
+    margin-top: 10px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #044C29; 
+	text-align: right;}
+	
+/* Navigation Map*/
+	
+.overlay2 {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 7;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+    
+.span2 {
+    margin-top: 10px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #044C29;
+	text-align: right;
+}
+
+.overlay2-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay2 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay2 a:hover, .overlay2 a:focus {
+    color: #f1f1f1;
+}
+
+.overlay2 .closebtn2 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay2 {overflow-y: auto;}
+  .overlay2 a {font-size: 20px}
+  .overlay2 .closebtn2 {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+	
+/* Chevron calling for action - AIDA button*/	
+ .keyframe {
+    position: relative;
+    background-color: white;
+    -webkit-animation-name: clickme;
+    animation-name: clickme;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  @-webkit-keyframes clickme {
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    4.41177% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    8.82353% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    13.23529% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    17.64706% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    22.05882% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    26.47059% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); } }
+  @keyframes clickme {
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    4.41177% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    8.82353% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    13.23529% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    17.64706% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    22.05882% {
+      -webkit-transform: translate(0, 5px);
+      transform: translate(0, 5px); }
+    26.47059% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); } }	
+	
+.videome {
+	width: 70%; 
+	}
+	
+.map {
+	
+   margin-left:5vh;
+	 -webkit-transform: scale(1, 1);
+	 -webkit-transform-origin: center;
+
+		
+	}
+	
+.container {
+    overflow:hidden;	
+}
+	
+.middle {
+	background-color: transparent;
+	margin-top: -16vh;
+	background-image: url(wolfanimation.gif);
+	background-position:center;
+	background-size: 640px 360px;
+	background-repeat: no-repeat;
+	height:65vh;
+	}
+	
+	
+
+.leftside {
+	background-color: transparent;
+	width: 20%;
+	
+	}
+	
+	
+.wrapper{
+  width: 50%;
+	background-color: orange;
+	}
+    
+
+.social { 
+    list-style: none;
+    display: block;
+	position: fixed;
+      }
+    
+    
+.social-item {
+         
+    display: table;
+    color: black;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    padding-top:14px;
+    text-align: center;
+    border: 2px solid black;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-bottom: 4vh;
+	margin-top: 6vh;
+	margin-left: 1vh;
+
+    
+    }
+       
+        
+ .social a:hover{ 
+      background-color: #147534;
+      border-color: #147534;
+      display: table;
+      font-size: 30px;
+      padding-top:14px;
+      color: #f1f1f1
+    }
+
+
+
+.top {
+	margin-top:-15vh;
+	margin-left:7vh;
+	height: 40vh;
+	width:80%;	
+	}
+
+
+		p {
+		font-size: 15px;
+		font-family:Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+		line-height: 110%;
+		text-align: center;
+	}
+	
+	
+	.little {
+		font-size: 12px;
+		font-weight:900;
+	}	
+	
+	
+	    .vesko {
+				
+    	margin-top: 20px;
+    	margin-left: 24px;
+    	background-image: url(home.png);
+    	background-size: contain;
+    	height: 60px;
+    	width: 60px;
+    	position: absolute;
+    	float: left;
+    	top: 0;
+}
+
+
+}
+
+

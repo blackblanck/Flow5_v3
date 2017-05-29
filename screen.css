@@ -1,0 +1,175 @@
+/* Scss Document */
+@media only screen and (min-width: 1000px) {
+  /* Scss Document */
+  body {
+    font-family: calibri, sans-serif;
+    text-align: center;
+    background-image: url(marvin.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    background-attachment: fixed; }
+  .container {
+    overflow: hidden; }
+  .top {
+    width: 33.33%;
+    margin-left: 33.33%; }
+  .allposts {
+    width: 33.33%;
+    margin-left: 33.33%; }
+  .one {
+    position: relative;
+    top: 0;
+    background-color: #f15a24;
+    z-index: 5;
+    cursor: pointer;
+    color: white;
+    height: 60px; }
+    .one h1 {
+      font-size: 40px;
+      padding-top: 10px;
+      color: white;
+      font-weight: 900; }
+  .two {
+    position: relative;
+    top: -500px;
+    background-color: orange;
+    z-index: 3;
+    -webkit-transition: top 1s;
+    -moz-transition: top 1s;
+    -o-transition: top 1s;
+    transition: top 1s;
+    height: 380px; }
+    .two h1 {
+      font-size: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: white; }
+  .logo {
+    height: 120px;
+    background-image: url(postit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%; }
+  .footer {
+    height: 80px; }
+  .create {
+    background-color: #ddd;
+    height: 450px;
+    margin-bottom: 10px; }
+    .create h1 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: #333333;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: white; }
+    .create p {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align: left;
+      padding-left: 12px;
+      font-weight: 700; }
+    .create input[type=text] {
+      width: 95%;
+      height: 30px;
+      background-color: #E4E4E4;
+      font-size: 20px; }
+    .create input[type=submit] {
+      width: 45%;
+      height: 40px;
+      font-size: 20px;
+      background-color: #333333;
+      color: white; }
+    .create textarea {
+      width: 95%;
+      height: 200px;
+      background-color: #E4E4E4;
+      font-size: 30px;
+      font-family: calibri; }
+  .recent {
+    background-color: transparent;
+    height: 420px;
+    margin-bottom: 10px; }
+    .recent h1 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: #333333;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: white; }
+  .individual {
+    margin-left: 15%;
+    margin-top: 7%;
+    width: 70%;
+    height: 350px;
+    background-color: transparent;
+    margin-bottom: 150px; }
+    .individual .name {
+      height: 40px;
+      font-size: 20px;
+      font-weight: 900;
+      color: white;
+      text-align: left;
+      background-color: #f15a24;
+      padding-top: 20px;
+      padding-left: 10px; }
+    .individual .title {
+      font-size: 20px;
+      color: #333333;
+      font-weight: 900;
+      text-align: left;
+      background-color: #ddd;
+      height: 30px;
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .individual .note {
+      font-size: 20px;
+      color: #333333;
+      text-align: left;
+      height: 250px;
+      background-color: #ddd;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      box-sizing: border-box; }
+    .individual .date {
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      background-color: #f15a24;
+      padding: 10px; } }
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #f15a24;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */ }
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */ }
